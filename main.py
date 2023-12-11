@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 
 DIRECTORIES = {
-    "HTML": [".html5", ".html", ".htm", ".xhtml"],
-    "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg", ".heif", ".psd", ".ai"],
+    "WEB-RELATED": [".html5", ".html", ".htm", ".xhtml",".css","scss",".css3"],
+    "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg", ".heif", ".psd", ".ai", ".ico"],
     "VIDEOS": [".avi", ".flv", ".wmv", ".mov", ".mp4", ".webm", ".vob", ".mng", ".qt", ".mpg", ".mpeg", ".3gp"],
     "DOCUMENTS": [".oxps", ".epub", ".pages", ".docx", ".doc", ".fdf", ".ods", ".odt", ".pwi", ".xsn", ".xps", ".dotx",
                   ".docm", ".dox", ".rvg", ".rtf", ".rtfd", ".wpd", ".xls", ".xlsx", ".ppt", "pptx"],
@@ -12,10 +12,10 @@ DIRECTORIES = {
               ".wav", ".wma"],
     "PLAINTEXT": [".txt", ".in", ".out"],
     "PDF": [".pdf"],
-    "PYTHON": [".py"],
+    "CODING": [".py",".js",".c",".cc"],
     "XML": [".xml"],
     "EXE": [".exe"],
-    "SHELL": [".sh"]
+    "SCRIPTS": [".sh",".bat"]
 
 }
 
